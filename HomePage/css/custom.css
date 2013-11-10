@@ -1,0 +1,19 @@
+html .customImageP{padding:60px 0 0 0;text-align:center;margin-bottom: 0px;}
+html .customImageP img{margin:0 auto;}
+html .customImageJumbotron{border-bottom:1px solid #D0CFCF;padding-bottom: 0px;}
+
+html .customContentJumbotron{}
+html .customContentJumbotron p{font-size: 24px;line-height:1.5;padding-top: 58px;}
+html .customContentRow{margin-top: 100px;text-align: center;}
+html .customContentRow img{padding: 4px;border: 1px solid #DDDDDD;}
+html .customContentRow p{padding-top: 18px;}
+html .customContentRow .customAuthor{margin-bottom:4px;}
+html .customContentRow .customProfession{padding-top: 0px;color: #A8A8A8;font-size: 20px;}
+html .customContentJumbotron .customButton{color:#0088CC;padding:0 18px 4px 0;font-size: 23px;background-image: url("../image/more.svg");background-size: 11px 17px;background-repeat: no-repeat;background-position: right 8px;}
+html .customContentJumbotron .customButton:hover{color:#0088CC;}
+
+html .customBottomJumbotron{background-color: #F8F8F8;margin-bottom:0px;padding-bottom: 20px;padding-top: 30px;}
+html .customBottomJumbotron h1{font-size: 30px;color: #8C8F9B;margin-top: 0px;}
+html .customBottomRow{margin-top: 50px;padding-bottom: 50px;border-bottom:1px solid #D0CFCF;}
+html .customFooter p{font-size: 14px;margin-top: 20px;}
+html .customFooter a{padding-right: 10px;}

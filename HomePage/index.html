@@ -5,8 +5,12 @@
   <head>
     <title>Bootstrap 101 Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+    <link href="css/justified-nav.css" rel="stylesheet" media="screen">
+    <link href="css/custom.css" rel="stylesheet" media="screen">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,11 +21,157 @@
   </head>
   <body>
       
-      <div class="navbar navbar-inverse navbar-fixed-top">
-      
+      <div class="navbar navbar-default navbar-static-top">
+          <div class="container">
+              <div class="navbar-header">
+                  <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">MyCard</a>
+              </div>
+              <div class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav">
+                      <li>
+                          <a href="#">在线大厅</a>
+                      </li>
+                      <li class="dropdown">
+                          <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                              竞技场
+                              <b class="caret"></b>
+                          </a>
+                          <ul class="dropdown-menu">
+                              <li>
+                                  <a href="#">Action</a>
+                              </li>
+                              <li>
+                                  <a href="#">Another action</a>
+                              </li>
+                              <li>
+                                  <a href="#">Something else here</a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li class="dropdown">
+                          <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                              卡组
+                              <b class="caret"></b>
+                          </a>
+                          <ul class="dropdown-menu">
+                              <li>
+                                  <a href="#">Action</a>
+                              </li>
+                              <li>
+                                  <a href="#">Another action</a>
+                              </li>
+                              <li>
+                                  <a href="#">Something else here</a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li>
+                          <a href="#">残局</a>
+                      </li>
+                      <li>
+                          <a href="#">论坛</a>
+                      </li>
+                      <li class="dropdown">
+                          <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                              《DUELIST》
+                              <b class="caret"></b>
+                          </a>
+                          <ul class="dropdown-menu">
+                              <li>
+                                  <a href="#">Action</a>
+                              </li>
+                              <li>
+                                  <a href="#">Another action</a>
+                              </li>
+                              <li>
+                                  <a href="#">Something else here</a>
+                              </li>
+                          </ul>
+                      </li>
+                  </ul>
+              </div>
+          </div>
       </div>
+
       
 
+
+      <div class="container">
+         <div class="jumbotron customImageJumbotron">
+              <h1>MyCard 萌卡</h1>
+              <p class="lead">大家一起萌起来</p>
+              <p>
+                    <a class="btn btn-lg btn-primary" role="button" href="#">Download MyCard for Mac</a>
+              </p>
+              <p class="customImageP">
+                    <img class="featurette-image img-responsive" alt="500x500" data-src="holder.js/500x500/auto" src="image/content.png">
+              </p>
+         </div>
+          <div class="jumbotron customContentJumbotron">
+              <p><strong>MyCard</strong>是一个非盈利项目，您所享受的一切萌卡服务均由一群富有热情和创造力的年轻人打造。他们一无所求，只为您能享受与MyCard共同度过的每一分钟。我们所有人都有一个共同的愿望：希望MyCard能够走得更远，发展的更好，给更多的人带来欢乐。<a class="btn customButton" href="#" role="button">支持我们</a></p>
+              <div class="row customContentRow">
+                  <div class="col-lg-3">
+                      <img src="https://www.gravatar.com/avatar/873bd008b011ad0ecc5b3b651a069e9e?size=200" alt="140x140" class="img-circle">
+                      <p class="customAuthor">Mesiade</p>
+                      <p class="customProfession">Web UI developer</p>
+                  </div>
+                  <div class="col-lg-3">
+                      <img src="https://www.gravatar.com/avatar/bbd295433394919e8dda89456a6bc983?size=200" alt="140x140" class="img-circle">
+                      <p class="customAuthor">Simon Chan</p>
+                      <p class="customProfession">ygopro-web developer</p>                      
+                  </div>
+                  <div class="col-lg-3">
+                      <img src="https://www.gravatar.com/avatar/09fb7a14e5b9fbb9cd82ffaa1df37634?size=200" alt="140x140" class="img-circle">
+                      <p class="customAuthor">zh99998</p>
+                      <p class="customProfession">Founder</p>  
+                    </div>
+                  <div class="col-lg-3">
+                      <img src="https://www.gravatar.com/avatar/78de8f235fc53f56abbe6870b307f0b4?size=200" alt="140x140" class="img-circle">                      
+                      <p class="customAuthor">Phoenix Nemo</p>
+                      <p class="customProfession">Server Provide</p>  
+                  </div>
+              </div>             
+         </div>
+      </div>
+      <div class="jumbotron customBottomJumbotron">
+            <div class="container">
+                <h1>合作伙伴</h1>
+                <div class="row customBottomRow">
+                      <div class="col-lg-2">
+                           <img src="image/partnerLogo/touhou.png" alt="140x140" >
+                      </div>
+                      <div class="col-lg-2">
+                           <img src="image/partnerLogo/ocgsoft.png" alt="140x140" >
+                      </div>
+                      <div class="col-lg-2">
+                           <img src="image/partnerLogo/ygopro.png" alt="140x140" >
+                      </div>
+                      <div class="col-lg-2">
+                           <img src="image/partnerLogo/66.png" alt="140x140" >
+                      </div>
+                      <div class="col-lg-2">
+                           <img src="image/partnerLogo/arch.png" alt="140x140" >
+                      </div>
+                </div>
+                <footer class="customFooter">
+                    <p class="pull-right">
+                        © 2013 MyCard Inc. All rights reserved
+                    </p>
+                    <p class="pull-left">
+                         <a href="#">联系作者</a>
+                         <a href="#">加入我们</a>
+                         <a href="#">Google+</a>
+                         <a href="#">Github</a>
+                    </p>
+              </footer>
+            </div>
+      </div>
+     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
